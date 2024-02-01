@@ -1,0 +1,60 @@
+.attribution {
+  font-size: 20px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: hsl(218, 23%, 16%);
+  word-wrap: break-word;
+}
+
+.tampilan {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.isi {
+  text-align: center;
+
+  padding: 50px;
+  border-radius: 1rem;
+  background-color: hsl(217, 19%, 24%);
+  width: min(calc(90% - 4rem), 75ch);
+  position: relative;
+}
+
+.isi p {
+  font-family: "Manrope", sans-serif;
+  font-size: 28px;
+  color: hsl(193, 38%, 86%);
+}
+
+.isi h1 {
+  font-size: 22px;
+  color: hsl(150, 100%, 66%);
+}
+
+button {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: none;
+  position: absolute;
+  bottom: 0;
+  translate: 0 50%;
+}
+
+.tombol {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
